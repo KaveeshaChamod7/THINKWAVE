@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('background.index.gif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  header .header-content h1 {
+    font-size: 2.5em;
+  }
+  
+  header .header-content p {
+    font-size: 1.2em;
+  }
+  
+  .mission {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .mission p{
+    font-size: 22px;
+  }
+  
+  .team {
+    padding: 40px 20px;
+    background-color: rgba(249, 249, 249, 0.349);
+    text-align: center;
+  }
+  
+  .team h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
