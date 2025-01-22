@@ -159,4 +159,25 @@
   @keyframes button-fade-in {
     from { opacity: 0; }
     to { opacity: 1; }
-  }    
+  }   
+@media only screen and (max-width: 768px) {
+  /* Adjust layout, font sizes, and margins for smaller screens */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide sidebar */
+  }
+  
+  .content {
+    width: 100%; /* Expand content to full width */
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
